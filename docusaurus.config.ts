@@ -45,6 +45,10 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'AutoParams, Java testing, test data generation, parameterized tests, AutoFixture, automated testing, open-source testing tools, random test data, Java unit tests' },
+      { name: 'description', content: 'AutoParams simplifies Java and Kotlin testing by generating arbitrary data for parameterized tests, inspired by AutoFixture. Automate test data creation with minimal setup and maintain focus on testing logic.' },
+    ],
     navbar: {
       title: 'AutoParams',
       logo: {
