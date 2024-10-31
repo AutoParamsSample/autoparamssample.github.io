@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'A test data generator for Java and Kotlin parameterized tests',
-  tagline: 'AutoParams improves your testing experience by automatically generating the data required for your tests.',
+  title: 'AutoParams - Simplify Java and Kotlin Testing with Automated Data',
+  tagline: 'Improve your testing experience by automatically generating test data.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
