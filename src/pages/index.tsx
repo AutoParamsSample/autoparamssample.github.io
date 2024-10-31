@@ -8,23 +8,27 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import HomepageCodeExamples from '../components/HomepageCodeExamples';
 import HomepageQuickStart from '../components/HomepageQuickStart';
+import HeadingDecoration from '../components/HeadingDecoration';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-        AutoParams is an arbitrary test data generator designed for parameterized tests in Java and Kotlin.
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link to="docs">
-            <button className="button button--secondary" role="button">Get Started</button>
-          </Link>
-          <iframe
-            src="https://ghbtns.com/github-btn.html?user=AutoParams&repo=AutoParams&type=star&count=true&size=large"
-              width="170" height="30" title="GitHub"></iframe>
+        <HeadingDecoration />
+        <div className={styles.heading}>
+          <Heading as="h1" className="hero__title">
+            AutoParams is an arbitrary test data generator designed for parameterized tests in Java and Kotlin.
+          </Heading>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link to="docs">
+              <button className="button button--secondary" role="button">Get Started</button>
+            </Link>
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=AutoParams&repo=AutoParams&type=star&count=true&size=large"
+                width="170" height="30" title="GitHub"></iframe>
+          </div>
         </div>
       </div>
     </header>
