@@ -45,9 +45,9 @@ function Feature({title, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures({className}: {className?: string}): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className={clsx(styles.features, className)}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
