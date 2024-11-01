@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="Description will go into a meta tag in <head />">
+      description="AutoParams is a versatile test data generator designed for parameterized tests in Java and Kotlin, drawing inspiration from AutoFixture.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
