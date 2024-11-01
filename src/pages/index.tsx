@@ -7,7 +7,6 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 import HomepageCodeExamples from '../components/HomepageCodeExamples';
-import HomepageQuickStart from '../components/HomepageQuickStart';
 import HeadingDecoration from '../components/HeadingDecoration';
 
 function HomepageHeader() {
@@ -43,7 +42,6 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <HomepageQuickStart />
         <HomepageCodeExamples />
       </main>
     </Layout>
