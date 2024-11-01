@@ -17,7 +17,7 @@ function HomepageHeader() {
       <div className="container">
         <HeadingDecoration />
         <div className={styles.heading}>
-          <Heading as="h1" className="hero__title">
+          <Heading as="h1" className={clsx('hero__title', styles.headingTitle)}>
             {siteConfig.title}
           </Heading>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
