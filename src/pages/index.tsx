@@ -18,7 +18,7 @@ function HomepageHeader() {
         <HeadingDecoration />
         <div className={styles.heading}>
           <Heading as="h1" className="hero__title">
-            AutoParams provides data as parameters for tests in Java and Kotlin.
+            {siteConfig.title}
           </Heading>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
