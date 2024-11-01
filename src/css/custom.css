@@ -29,6 +29,20 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+p {
+  margin: 0;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  main {
+    padding: 2rem 1rem;
+  }
+}
+
 .header-github-link::before {
   content: '';
   width: 24px;
